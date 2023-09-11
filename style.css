@@ -11,22 +11,30 @@
     background-repeat: no-repeat;
 }
 
+h5 {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif;
+    /* font-family: 'Rubik', sans-serif; */
+}
+h3 {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif;
+}
 h1 {
     font-family: 'Barlow', sans-serif;
     font-family: 'Fraunces', serif;
-    font-family: 'Rubik', sans-serif;
 }
 
 p {
     font-family: 'Barlow', sans-serif;
-    font-family: 'Fraunces', serif;
-    font-family: 'Rubik', sans-serif;
-    font-size: 14px;
+    /* font-family: 'Fraunces', serif; */
+    /* font-family: 'Rubik', sans-serif; */
+    font-size: 18px;
 }
 
 .rounded-circle {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
 }
 
 .position {
@@ -34,9 +42,9 @@ p {
 }
 
 .absolute {
-    width: 70%;
+    width: 62%;
     position: absolute;
-    left: 15%;
+    left: 19%;
     bottom: 20px;
 }
 .decoration-yellow {
@@ -67,14 +75,13 @@ p {
         margin-bottom: 40px;
     }
     
-
     .absolute {
         width: 70%;
         position: absolute;
         left: 15%;
         bottom: 5px;
     }
-
+    
     .bg-image {
         background-image: url(./Image/image-header\ \(3\).jpg);
         display: block;
@@ -83,6 +90,7 @@ p {
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
+
     .d-flex {
         display: flex;
     }
